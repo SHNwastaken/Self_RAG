@@ -1,0 +1,19 @@
+[project]
+name = "langraphstuff"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "faiss-cpu>=1.11.0",
+    "ipython>=9.3.0",
+    "langchain-community>=0.3.26",
+    "langchain-experimental>=0.3.4",
+    "langchain-google-genai>=2.1.5",
+    "langgraph>=0.4.8",
+    "pypdf>=5.6.1",
+    "python-dotenv>=1.1.1",
+    "ruff>=0.12.1",
+    "streamlit>=1.46.1",
+    "tavily-python>=0.7.8",
+]
